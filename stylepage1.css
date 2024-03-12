@@ -1,0 +1,107 @@
+
+body {
+            background: url(/images/parallax-1.png) center top repeat-x #f7f2df;
+        }
+
+        body .accueil-header, .accueil-body, .accueil-footer {
+            width: 100%;
+        }
+
+        .accueil-header {
+            text-align: center;
+            height: 200px;
+        }
+
+        .accueil-body {
+            width: 100%;
+           
+            text-align: center;
+        }
+
+        .accueil-footer {
+            position: absolute;
+            bottom: 0px;
+            left: 18%;
+            width: 60%;
+            background: #f9f6ea;
+            border-top: 1px solid #d2d6de;
+            padding: 12px;
+        }
+
+        .accueil-component {
+            width: 90%;
+            height: 200px;
+            display: inline-block;
+            padding-top: 6px;
+        }
+
+        .accueil-component:hover {
+            opacity: 90%;
+            cursor: pointer;
+        
+        }
+
+        .materiel-color-orange {
+
+            background: #c98d83;;
+            width: 100%;
+            height: 70%;
+            
+        }
+
+        .materiel-color-gray {
+            
+            background: #c98d83;
+            width: 100%;
+            height: 70%;
+            
+
+        }
+
+        .accueil-component-icon {
+            width: 50%;
+            margin: auto;
+
+
+            border: 0px solid;
+            width: 208px;
+            border-radius: 110px;
+            padding-top: 00px;
+            padding-right: 80px;
+            
+
+        }
+
+        .accueil-component-icon img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border: 4px solid #9da7dc;
+        
+        }
+
+        .accueil-component-title {
+            display: inline-block;
+            border: 0px solid;
+            position: relative;
+            background: #eeeeee;
+            width: 97%;
+            bottom: 15px;
+            z-index: -1;
+
+        }
+
+        .accueil-component-title p {
+            font-size: 20px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .pull-right {
+            float: left !important;
+        }
+
+        .pull-left {
+            float: right !important;
+        }
+
